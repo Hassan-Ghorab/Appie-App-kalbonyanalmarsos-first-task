@@ -195,7 +195,7 @@ color: #ff3e66;
 .hero-img-container {
   width: 48%;
   position: absolute;
-  bottom: 0;
+  bottom: -3px;
   right: 0;
 }
 
