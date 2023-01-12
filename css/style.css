@@ -28,6 +28,12 @@
 
 .nav-link-item {
   margin-right: 30px;
+  transition: all .3s;
+}
+
+.nav-link-item:hover a,
+.nav-link-item:hover i{
+color: #ff3e66;
 }
 
 .nav-link {
@@ -444,24 +450,24 @@
   position: absolute;
   left: -40px;
   top: 0;
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
 }
 
 .shadow-one .service-shadow {
   background-color: #ff3e66;
-  border: 6px solid #2a182d;
+  border: 5px solid #2a182d;
 }
 
 .shadow-two .service-shadow {
   background-color: #2eacfc;
-  border: 6px solid #15233d;
+  border: 5px solid #15233d;
 }
 
 .shadow-three .service-shadow {
   background-color: #33c956;
-  border: 6px solid #15262c;
+  border: 5px solid #15262c;
 }
 
 .service-img {
@@ -646,7 +652,7 @@
   border-radius: 16px;
   margin-right: 8px;
   border: 2px solid #0e1133;
-  width: 190px;
+  width: 200px;
   margin-bottom: 20px;
   font-weight: 500;
   transition: all 0.5s;
@@ -1055,6 +1061,10 @@
 
 .footer-container .footer-touch ul li a {
   font-weight: 400;
+}
+
+.footer-container .footer-touch ul li a:last-child {
+  padding: 5px 0;
 }
 
 .touch-icon {
