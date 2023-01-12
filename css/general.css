@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.secondary-heading {
+  font-size: 44px;
+  font-weight: 900;
+  color: #0e1133;
+}
+
+.sub-heading {
+  font-size: 18px;
+  font-weight: 400;
+  color: #505056;
+  margin-top: 11px;
+  line-height: 1.4;
+}
+
+/* Helper-class */
+.get-started-link:link,
+.get-started-link:visited {
+  display: inline-block;
+  background-color: #ff3e66;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  width: 138px;
+  height: 47px;
+  line-height: 47px;
+  border: 1px solid #ff3e66;
+  border-radius: 1000px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.header .get-started-link:hover,
+.header .get-started-link:active,
+.pricing-card:nth-child(2) .get-started-link:hover,
+.pricing-card:nth-child(2) .get-started-link:active {
+  background-color: #fff;
+  color: #ff3e66;
+  border: 1px solid #ff3e66;
+}
+
+.pricing-card:nth-child(2) .get-started-link,
+.pricing-card .get-started-link:hover,
+.video-text .get-started-link:hover,
+.video-text .get-started-link:active,
+.view-features:hover {
+  background-color: #ff3e66;
+  border-color: #ff3e66;
+  color: #fff;
+}
+
+.pricing-card:first-child:hover,
+.pricing-card:nth-child(2),
+.pricing-card:last-child:hover,
+.feature-box:hover {
+  border-top: 3px solid #ff3e66;
+  box-shadow: 0px -3px 0px 0px rgb(255 60 100 / 0%),
+    0px 40px 40px 0px rgb(14 15 50 / 10%);
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-box:nth-child(1):hover {
+  border-top: 3px solid #2eacfc;
+}
+
+.feature-box:nth-child(3):hover {
+  border-top: 3px solid #3578ff;
+}
+
+.feature-box:nth-child(4):hover {
+  border-top: 3px solid #f67741;
+}
+
+.feature-box:nth-child(5):hover {
+  border-top: 3px solid #6a88f7;
+}
+.feature-box:nth-child(6):hover {
+  border-top: 3px solid #3ab094;
+}
+
+.arrows {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.custom-arrow {
+  font-size: 16px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  border: 2px solid #e3e5e8;
+  color: #e3e5e8;
+  border-radius: 50%;
+  z-index: 9;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.custom-arrow:last-child,
+.custom-arrow:first-child:hover {
+  background-color: #ff3e66;
+  color: #fff;
+  border: 2px solid #ff3e66;
+}
+
+.android:hover,
+.footer-copyright .apps-container .ios:hover,
+.footer-copyright .apps-container .android:hover {
+  background-color: #0e1133;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #505056;
+}
