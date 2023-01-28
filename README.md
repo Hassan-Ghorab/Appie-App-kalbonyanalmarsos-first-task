@@ -4,7 +4,7 @@
 This is a task for kalbonyanalmarsos competition <br>
 it's an HTML &amp; CSS landing page task to test ourselves.
 
-# [Live Demo](https://hassan-ghorab.github.io/kalbonyanalmarsos-first-task/)
+# [Live Demo](https://hassan-ghorab.github.io/Appie-App-kalbonyanalmarsos-first-task/)
 
 ### Technologies:
 - HTML
