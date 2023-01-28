@@ -17,13 +17,15 @@
   cursor: pointer;
 }
 
-.main-nav-bar {
+.main-navbar {
   width: 80%;
+  transition: all 3s;
 }
 
 .main-nav {
   display: flex;
   align-items: center;
+  transition: all 3s;
 }
 
 .nav-link-item {
@@ -72,7 +74,7 @@ color: #ff3e66;
 }
 
 .burger-menu {
-  font-size: 20px;
+  font-size: 30px;
   color: #0e1133;
   line-height: 1;
   display: flex;
@@ -1147,5 +1149,5 @@ color: #ff3e66;
   right: 30px;
   bottom: 30px;
   font-size: 16px;
-  z-index: 1000;
+  z-index: 900;
 }
