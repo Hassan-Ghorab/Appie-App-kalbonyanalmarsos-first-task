@@ -326,12 +326,12 @@
     max-width: 85%;
   }
 
-  .sponsors-container-img {
+  .support-container-img {
     height: 12rem;
     width: 12rem;
   }
 
-  .sponsor-box:last-child {
+  .support-box:last-child {
     gap: 0;
   }
 
@@ -360,7 +360,7 @@
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 930px) {
-  .sponsors-container-img {
+  .support-container-img {
     height: 16rem;
     width: 16rem;
   }
@@ -599,7 +599,7 @@
     width: 100%;
   }
 
-  .sponsors-container-img {
+  .support-container-img {
     height: 12rem;
     width: 12rem;
   }
