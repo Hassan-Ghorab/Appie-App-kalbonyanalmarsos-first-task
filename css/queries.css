@@ -359,7 +359,7 @@
   }
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 930px) and (orientation: portrait) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 930px) {
   .sponsors-container-img {
     height: 16rem;
     width: 16rem;
@@ -483,10 +483,6 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 91%;
-  }
-
-  .sponsors-box:last-child {
-    gap: 0;
   }
 
   .page-info {
