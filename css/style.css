@@ -940,14 +940,14 @@
   align-items: center;
 }
 
-.sponsors-box {
+.sponsor-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.sponsors-box:last-child {
+.sponsor-box:last-child {
   gap: 2.5rem;
 }
 
