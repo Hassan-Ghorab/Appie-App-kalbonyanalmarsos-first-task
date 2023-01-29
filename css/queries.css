@@ -4,8 +4,8 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 @media (min-width: 576px) {
@@ -206,7 +206,6 @@
 
   .menu-toggle-btn {
     position: static;
-  
   }
 
   .burger-menu {
@@ -215,7 +214,6 @@
     position: relative;
     z-index: 10000;
   }
-
 
   #nav-check:checked ~ .main-navbar {
     display: block;
@@ -328,9 +326,13 @@
     max-width: 85%;
   }
 
-  .sponsors-box:first-child .sponsors-container-img {
-    height: 100px;
-    width: 80px;
+  .sponsors-container-img {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .sponsors-box:last-child {
+    gap: 0;
   }
 
   .footer-container {
@@ -357,10 +359,22 @@
   }
 }
 
+@media only screen and (min-device-width: 481px) and (max-device-width: 930px) and (orientation: portrait) {
+  .sponsors-container-img {
+    height: 16rem;
+    width: 16rem;
+  }
+}
+
 /**************************************/
 /* BELOW 767px (phones) */
 /*************************************/
 @media (max-width: 767px) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 45%;
+  }
+
   .secondary-heading {
     font-size: 26px;
     text-align: center;
@@ -471,11 +485,6 @@
     max-width: 91%;
   }
 
-  .sponsors-box:first-child .sponsors-container-img {
-    height: 100px;
-    width: 100px;
-  }
-
   .sponsors-box:last-child {
     gap: 0;
   }
@@ -535,7 +544,6 @@
     border: none;
     outline: none;
     width: 55%;
-    height: 50px;
     font-size: 16px;
   }
 
@@ -593,6 +601,11 @@
   .pricing-card {
     padding: 10px;
     width: 100%;
+  }
+
+  .sponsors-container-img {
+    height: 12rem;
+    width: 12rem;
   }
 
   .get-started-link:link,
