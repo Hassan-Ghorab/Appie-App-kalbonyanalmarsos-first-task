@@ -941,7 +941,7 @@
 }
 
 .sponsors-box {
-  display: flex;
+  display: flex !important;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
