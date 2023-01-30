@@ -212,12 +212,12 @@
     display: inline-flex;
     justify-content: flex-end;
     position: relative;
-    z-index: 10000;
+    z-index: 200;
   }
 
   #nav-check:checked ~ .main-navbar {
     display: block;
-    transition: all 0.5s;
+    transition: all 5s;
   }
 
   .main-navbar {
@@ -237,16 +237,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
+    z-index: 150;
+  }
+
+  .nav-link {
+    font-size: 3rem;
+    font-weight: 900;
   }
 
   .nav-link-item {
-    padding: 1rem 0;
+    padding: 2rem 0;
     margin: 0;
   }
 
   .nav-link-item:last-child {
     border-bottom: none;
+  }
+
+  .nav-link-icon {
+    font-size: 2rem;
+    top: 1px;
   }
 
   .marketing {
@@ -370,11 +380,6 @@
 /* BELOW 767px (phones) */
 /*************************************/
 @media (max-width: 767px) {
-  html {
-    /* 8px / 16px = 0.5 = 50% */
-    font-size: 45%;
-  }
-
   .secondary-heading {
     font-size: 26px;
     text-align: center;
