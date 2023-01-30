@@ -241,12 +241,13 @@
   }
 
   .nav-link {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
   }
 
   .nav-link-item {
-    padding: 2rem 0;
+    padding: 1.5rem 0;
+    width: 80px;
     margin: 0;
   }
 
@@ -255,7 +256,7 @@
   }
 
   .nav-link-icon {
-    font-size: 2rem;
+    font-size: 1.5rem;
     top: 1px;
   }
 
@@ -290,7 +291,7 @@
   }
 
   .service-text-box {
-    width: 100%;
+    width: 92vw;
   }
 
   .video-text {
@@ -337,8 +338,8 @@
   }
 
   .support-container-img {
-    height: 12rem;
-    width: 12rem;
+    height: 9rem;
+    width: 9rem;
   }
 
   .support-box:last-child {
