@@ -28,11 +28,17 @@ ul {
 
 a {
   text-decoration: none;
+  transition: all .5s;
 }
 
 a:hover,
 .footer a:hover{
   color: #ff3e66;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.3rem rgb(255, 62, 102, .5);
 }
 
 .secondary-heading {

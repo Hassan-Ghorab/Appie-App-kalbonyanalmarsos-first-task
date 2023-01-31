@@ -4,6 +4,7 @@
 .header {
   background-color: #eef1f6;
   padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 .main-nav-box {
@@ -1012,6 +1013,7 @@
   color: #0e1133;
   border-radius: 6px;
   margin-right: 5px;
+  transition: all 1s;
 }
 
 .social-icon:hover {
@@ -1067,6 +1069,7 @@
 }
 
 .touch-icon {
+  padding-right: 10px;
   color: #2b70fa;
   font-size: 1.6rem;
 }
