@@ -322,8 +322,12 @@
   }
 
   .testimonials .container {
-    padding: 50px 30px;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    /* margin: 0 15px; */
+}
 
   .testimonials-container {
     text-align: center;
@@ -466,6 +470,15 @@
     text-align: left;
   }
 
+  .service-text-box {
+    width: 92vw;
+}
+
+  .testimonials .container {
+    padding: 50px 0;
+    margin: 0 15px;
+}
+
   .apps-section {
     padding-bottom: 70px;
     padding-top: 70px;
@@ -544,7 +557,7 @@
 
   .input-email {
     border: none;
-    outline: none;
+    outline: transparent;
     width: 55%;
     font-size: 16px;
   }

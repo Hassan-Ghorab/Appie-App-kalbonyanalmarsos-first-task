@@ -136,7 +136,7 @@
 
 .input-email {
   border: none;
-  outline: none;
+  outline: transparent;
   width: 75%;
   height: 5rem;
   font-size: 1.6rem;
@@ -656,6 +656,11 @@
 }
 
 .android {
+  background-color: #fff;
+  color: #0e1133;
+}
+
+.ios:hover {
   background-color: #fff;
   color: #0e1133;
 }
